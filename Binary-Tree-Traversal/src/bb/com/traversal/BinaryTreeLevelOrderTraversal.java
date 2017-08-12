@@ -25,15 +25,8 @@ else if level greater than 1, then
 
 */
 
-class Node{
-	int key;
-	Node left, right;
-	Node(int key){
-		this.key = key;
-		left = null;
-		right = null;
-	}
-}
+package bb.com.traversal;
+
 
 public class BinaryTreeLevelOrderTraversal{
 	Node root;

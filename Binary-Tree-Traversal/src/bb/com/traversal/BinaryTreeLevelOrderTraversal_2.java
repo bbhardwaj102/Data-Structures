@@ -16,18 +16,11 @@ printLevelorder(tree)
 
 */
 
+package bb.com.traversal;
 import java.util.Queue;
 import java.util.LinkedList;
 
-class Node{
-	int key;
-	Node left, right;
-	Node(int key){
-		this.key = key;
-		left = null;
-		right = null;
-	}
-}
+
 
 public class BinaryTreeLevelOrderTraversal_2{
 	Node root;
